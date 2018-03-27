@@ -1,0 +1,24 @@
+
+#logo {
+	max-width: 50px;
+}
+
+body {
+	font-family: 'Amiri', serif;
+}
+
+.headers {
+	font-family: "Abhaya Libre", serif;
+}
+
+.blog-header-logo {
+	font-size: 30px;
+}
+
+.menu-topics {
+	font-size: 22px;
+}
+
+.button-style {
+	font-size: 16px;
+}
