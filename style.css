@@ -2,9 +2,9 @@
 	background-color: #f7f7f7;
 }
 
-.play-button:hover {
+.hover-button:hover {
 	text-decoration: none;
-	color: black;
+	color: black !important;
 }
 
 #latest-header {
