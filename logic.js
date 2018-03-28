@@ -11,5 +11,15 @@ $('#where a[href="#where"]').tab('show');
 $('#faq a[href="#faq"]').tab('show');
 $('#contact a[href="#contact"]').tab('show');
 
+// topics sorting
+$(".menu-topics").click(function(){
+
+	$("#currentTopic").empty();
+	var value = $(this).attr("data-filter");
+
+	// code what data to show given the topic chosen
+
+});
+
 });
 
