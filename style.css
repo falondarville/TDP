@@ -67,6 +67,15 @@ a {
     color: #fa4400;
 }
 
+.nav-link.active {
+	background-color: #f7f7f7 !important;
+	color: black !important;
+}
+
+.nav-link:hover {
+	color: #fa4400;
+}
+
 ul {
 	padding-left: 0;
 }
