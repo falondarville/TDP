@@ -2,6 +2,11 @@
 	background-color: #f7f7f7;
 }
 
+.play-button:hover {
+	text-decoration: none;
+	color: black;
+}
+
 #latest-header {
 	color: #fa4400;
 }
