@@ -5,6 +5,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Amiri" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="tdp-small-logo-no-letters.png">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
@@ -39,7 +41,7 @@
 </div>
 
 <!-- About Section -->
-<div class="container">
+<div class="container mt-3">
   <div class="row">
     
   <div class="col-md-3"> 
@@ -52,11 +54,51 @@
   </div>
   <div class="col-md-9">
     <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="v-pills-about">ABOUT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo posuere accumsan. Praesent rhoncus tellus ut elit accumsan ornare. Fusce quis mollis ante. Curabitur mattis, mauris a cursus pretium, nisl nisi facilisis sapien, elementum sodales ante magna vitae ante. Donec id molestie tortor, in consectetur ligula. Phasellus quis dolor tellus. Integer pretium ante dui, ut volutpat felis tincidunt porttitor. Sed convallis nulla ipsum, ut tristique nisi vestibulum ut. Donec nec erat vitae augue laoreet interdum eu vel ligula. Morbi eu molestie ligula.
+    <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="v-pills-about"><em>The Darville Podcast</em> is a weekly audio show hosted by <a href="https://falondarville.com/">Falon Darville</a>. Falon is a writer and web developer who writes about culture, social media, creativity, and the workplace. She is interested in alternative workplaces like cooperatives and non-hierarchical structures. Falon is generally critical of the current realm of work and believes that working does not have to be as mentally and emotionally draining as it currently tends to be in the American workplace. <br><br>
+
+    In regards to culture, Falon is interested in getting people thinking beyond the scope of their current media sources and their surroundings. She believes that education, via free and open sources especially, is the ultimate gift that you can give yourself. Falon also holds that we need to be more skeptical when it comes to social media. We have become a society of selecting representation of ourselves, and the adverse effects of this include relinquishing authenticity. <br><br>
+
+    <em>The Darville Podcast</em> is meant to be a space for thinking. It is not meant to dictate absolutes, or even to convince anyone of a particular opinion. Rather, Falon's mission is to bring awareness to talking openly about things we generally don't think a great deal about, but that play a large role in our lives. It's important to question the way that we think, and where our thoughts come from. Through this, we can grow and develop our own opinions and ideas. We can also more easily recognize when we believe something simply by being told that it is the truth. 
     </div>
-    <div class="tab-pane fade" id="where" role="tabpanel" aria-labelledby="v-pills-where">WHERE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo posuere accumsan. Praesent rhoncus tellus ut elit accumsan ornare. Fusce quis mollis ante. Curabitur mattis, mauris a cursus pretium, nisl nisi facilisis sapien, elementum sodales ante magna vitae ante. Donec id molestie tortor, in consectetur ligula. Phasellus quis dolor tellus. Integer pretium ante dui, ut volutpat felis tincidunt porttitor. Sed convallis nulla ipsum, ut tristique nisi vestibulum ut. Donec nec erat vitae augue laoreet interdum eu vel ligula. Morbi eu molestie ligula.</div>
+    <div class="tab-pane fade" id="where" role="tabpanel" aria-labelledby="v-pills-where"><em>The Darville Podcast</em> is available on iTunes and Spotify. (add links here) <br><br> 
+
+     To discover more information about each episode, locate the episode in the archives and view a short summary alongside an episode transcription or script. Some episodes were based on blog articles on Falon Darville's blog, and a link will be included in the episode archives if this is the case. </div>
     <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="v-pills-faq">FAQ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo posuere accumsan. Praesent rhoncus tellus ut elit accumsan ornare. Fusce quis mollis ante. Curabitur mattis, mauris a cursus pretium, nisl nisi facilisis sapien, elementum sodales ante magna vitae ante. Donec id molestie tortor, in consectetur ligula. Phasellus quis dolor tellus. Integer pretium ante dui, ut volutpat felis tincidunt porttitor. Sed convallis nulla ipsum, ut tristique nisi vestibulum ut. Donec nec erat vitae augue laoreet interdum eu vel ligula. Morbi eu molestie ligula.</div>
-    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="v-pills-contact">CONTACT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo posuere accumsan. Praesent rhoncus tellus ut elit accumsan ornare. Fusce quis mollis ante. Curabitur mattis, mauris a cursus pretium, nisl nisi facilisis sapien, elementum sodales ante magna vitae ante. Donec id molestie tortor, in consectetur ligula. Phasellus quis dolor tellus. Integer pretium ante dui, ut volutpat felis tincidunt porttitor. Sed convallis nulla ipsum, ut tristique nisi vestibulum ut. Donec nec erat vitae augue laoreet interdum eu vel ligula. Morbi eu molestie ligula.</div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="v-pills-contact">
+
+    <div class="row">
+      <div class="col-md-8">
+        <form>
+
+          <!-- name input -->
+          <div class="form-group">
+            <label for="name-input">Name</label>
+            <input class="form-control" type="text">
+          </div>
+
+          <!-- email input -->
+          <div class="form-group">
+            <label for="email-input">Email address</label>
+            <input type="email" class="form-control" id="email-input">
+          </div>
+
+        <!-- message input -->
+        <div class="form-group">
+          <label for="message-input">Message</label>
+          <textarea class="form-control" id="massahe-input" rows="4"></textarea>
+        </div>
+
+        <!-- insert recaptcha here -->
+        <!-- <div class="g-recaptcha" data-sitekey="6LeNlk8UAAAAAO2NFEeHImPaG5eWzHr5s6WJBPl3"></div> -->
+
+        <button type="button" class="btn submit-button btn-lg btn-block">Submit</button>
+
+        </form>
+      </div>
+    </div>
+
+    
+    </div>
     </div>
   </div>
 

@@ -76,6 +76,16 @@ a {
 	color: #fa4400;
 }
 
+.submit-button {
+	border-color: #fa4400;
+	color: #fa4400;
+}
+
+.submit-button:hover {
+	background-color: #fa4400;
+    color: white;
+}
+
 ul {
 	padding-left: 0;
 }
